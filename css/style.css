@@ -22,7 +22,7 @@
         /* HEADER */
 
     body{
-        background-image: linear-gradient( to top,#410a0adc,#323177);
+        background-image: linear-gradient( to top,#000000dc,hsla(239, 92%, 66%, 0.788));
         background-repeat: no-repeat;
         height: 100vh;
     }
