@@ -10,6 +10,10 @@
     font-family: coet bold;
     src: url(../fonts/coet\ bold.ttf)
 }
+@font-face{
+    font-family: OCRAS;
+    src: url(../fonts/OCRAStd.otf)
+}
 
 
 *{
@@ -22,7 +26,7 @@
         /* HEADER */
 
     body{
-        background-image: linear-gradient( to top,#000000dc,hsla(239, 92%, 66%, 0.788));
+        background-color: black;
         background-repeat: no-repeat;
         height: 100vh;
     }
@@ -30,13 +34,12 @@
         display: flex;
         align-items: center;    
         justify-content: space-around;
-        /* background-color:#ffffff; */
         width: 100%;
         height: 80px;;
         border-bottom: rgba(0, 0, 0, 0.404) solid 0.5px ;
     }
     header .flex-j-around .logo-title{
-        /* display: flex; */
+        display: flex;
         align-items: center;
     }
     header .flex-j-around .logo-title img{
@@ -51,18 +54,45 @@
         /* MAIN */
 
     main{
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         align-items: center;
-    }
-    main h1{
-        margin: 50px 0px 0px 0px;
-        font-family: arenq;
-        color: #000000;
-    }
-    main img{
         height: 100%;
         width: 100%;
+    }
+    main .principium{
+        height: auto;
+        width: auto;
+        border: 0px 0px 0px 150px;
+           
+    }
+    main .principium h1{
+        margin: 50px 0px 0px 0px;
+        font-family: arenq;
+        color: #cacaca;
+        display: flex;
+        justify-content: center;
+    }
+    main .principium img{
+        height: 500px;
+        width: auto;
+        border-radius: 150px; 
+        margin: 0px 0px 0px 60px;
+        display:flex;
+        justify-content: center;
+    }
+    main .descrition{
+        height: 150px;
+        width: 100%;
+        margin-top: 50px;
+        background-color: #212021;
+    }
+    main .descrition h2{
+        color: rgb(179, 179, 179);
+        display: flex;
+        justify-content: center;
+        font-family: OCRAS;
+        padding-top: 10px;
     }
 
 }
