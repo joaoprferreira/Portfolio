@@ -21,12 +21,55 @@
     padding: 0;
 }
 
+.nav{
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    outline: none;  
+}
+.menu{
+    margin: 0px 30px 0px 0px;   
+}
+.menu a{
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+}
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+#toggle{
+    display: none;
+}
 @media (max-width: 800px) {
+    label{
+        display: block;
+        cursor: pointer;    
+        color: #cacaca;
+    }
+    .menu{
+        text-align: center;
+        width: 100%;   
+        display: none; 
+        transition: 1s;
+    }
+    .menu a{
+        display: block;
+        margin: 10px;
 
+    }
+    #toggle:checked + .menu{
+        display: block;
+        transition: 1s;
+        
+    }
         /* HEADER */
 
     body{
-        background-color: black;
+        background-color: rgb(0, 0, 0);
         background-repeat: no-repeat;
         height: 100vh;
     }
@@ -60,8 +103,11 @@
         height: 100%;
         width: 100%;
     }
+
+        /* PRINCIPIUM */
+
     main .principium{
-        height: auto;
+        height: 80vh;
         width: auto;
         border: 0px 0px 0px 150px;
            
@@ -81,8 +127,11 @@
         display:flex;
         justify-content: center;
     }
+
+        /* DESCRITION */
+
     main .descrition{
-        height: 150px;
+        height: 230px;
         width: 100%;
         margin-top: 50px;
         background-color: #212021;
@@ -93,6 +142,19 @@
         justify-content: center;
         font-family: OCRAS;
         padding-top: 10px;
+    }
+    main ul li{
+        color: rgba(231, 232, 209, 0.548);
+        font-family: OCRAS;
+        display: flex;
+        justify-content : center;
+        align-items: center;
+        padding: 5px;
+    }
+    main ul img {
+        height: 45px;
+        width: auto;
+        margin:10px 0px 0px 200px;
     }
 
 }
