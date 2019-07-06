@@ -74,6 +74,7 @@ label{
         background-color: rgb(0, 0, 0);
         background-repeat: no-repeat;
         height: 100vh;
+        /* position: absolute; */
     }
     header .flex-j-around{
         display: flex;
@@ -156,7 +157,7 @@ label{
         /* DESCRITION */
 
     main .descrition{
-        height: 230px;
+        height: 300px;
         width: 100%;
         margin-top: 50px;
         background-color: #212021;
@@ -168,7 +169,7 @@ label{
         font-family: OCRAS;
         padding-top: 10px;
     }
-    main ul li{
+    main .descrition ul li{
         color: rgba(231, 232, 209, 0.548);
         font-family: OCRAS;
         display: flex;
@@ -176,10 +177,17 @@ label{
         align-items: center;
         padding: 5px;
     }
-    main ul img {
+    main .descrition ul img {
         height: 45px;
         width: auto;
         margin:10px 0px 0px 200px;
+    }
+    main aside img{
+        width: auto;
+        height: 45px;
+        display: block;
+        margin: 10px;
+
     }
 
 }
