@@ -38,6 +38,10 @@
     font-family: LemonMilklightitalic;
     src: url(../fonts/LemonMilklightitalic.otf)
 }
+@font-face{
+    font-family: Original;
+    src: url(../fonts/Original\ by\ fnkfrsh.otf)
+}
 
 *{
     margin: 0;
@@ -109,21 +113,22 @@ label{
     .menu a{
         display: block;
         margin: 10px;
-        font-family: LemonMilk; 
-        font-size: 20px;
-        color: rgb(255, 255, 255);  
+        font-family: Original; 
+        font-size: 25px;
+        color: rgb(218, 218, 218);  
 
     }
     #toggle:checked + .menu{
         display: block;
-        border-bottom: solid 1px rgba(255, 255, 255, 0.212);
-        background-color: rgb(49, 49, 49);
+        background-color: rgb(27, 27, 27);
+        height: 150px;
+        transition: 
     }
 
         /* MAIN */
 
     main{
-        /* display: flex; */
+        
         justify-content: center;
         align-items: center;
         height: 100%;
@@ -177,10 +182,21 @@ label{
         align-items: center;
         padding: 5px;
     }
-    main .descrition ul img {
+    main .descrition img {
         height: 45px;
         width: auto;
         margin:10px 0px 0px 200px;
+    }
+
+        /* ASIDE */
+
+    main aside {
+        height: 130px;
+        width: 100%;
+        margin-top:50px; 
+        display: flex;
+        justify-content: center;
+        border-bottom: gray solid 1px;
     }
     main aside img{
         width: auto;
@@ -190,4 +206,19 @@ label{
 
     }
 
+
+        /* section */
+
+
+    main section {
+        height: 250px;
+        width: 100%;
+        background-color: rgb(27, 27, 27);
+    }    
+    main section h2{
+        display: flex;
+        justify-content: center;
+        font-family: Ocras;
+         
+    }
 }
