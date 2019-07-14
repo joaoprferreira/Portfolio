@@ -196,7 +196,6 @@ label{
         margin-top:50px; 
         display: flex;
         justify-content: center;
-        border-bottom: gray solid 1px;
     }
     main aside img{
         width: auto;
@@ -219,6 +218,7 @@ label{
         display: flex;
         justify-content: center;
         font-family: Ocras;
+        padding: 10px;
          
     }
 }
