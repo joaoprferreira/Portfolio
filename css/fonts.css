@@ -1,0 +1,44 @@
+@font-face{
+    font-family: arenq;
+    src: url(../fonts/Arenq.otf)
+}
+@font-face{
+    font-family: coet light;
+    src: url(../fonts/coet\ light.ttf)
+}
+@font-face{
+    font-family: coet bold;
+    src: url(../fonts/coet\ bold.ttf)
+}
+@font-face{
+    font-family: OCRAS;
+    src: url(../fonts/OCRAStd.otf)
+}
+@font-face{
+    font-family: LemonMilk;
+    src: url(../fonts/LemonMilk.otf)
+}
+@font-face{
+    font-family: LemonMilkbold;
+    src: url(../fonts/LemonMilkbold.otf)
+}
+@font-face{
+    font-family: LemonMilkbolditalic;
+    src: url(../fonts/LemonMilkbolditalic.otf)
+}
+@font-face{
+    font-family: LemonMilkitalic;
+    src: url(../fonts/LemonMilkitalic.otf)
+}
+@font-face{
+    font-family: LemonMilklight;
+    src: url(../fonts/LemonMilklight.otf)
+}
+@font-face{
+    font-family: LemonMilklightitalic;
+    src: url(../fonts/LemonMilklightitalic.otf)
+}
+@font-face{
+    font-family: Original;
+    src: url(../fonts/Original\ by\ fnkfrsh.otf)
+}
